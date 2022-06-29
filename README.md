@@ -16,7 +16,8 @@ Project information needed to run the file:
 Directions:
   1. Download read-from-s3.py.
   2. Input your project information into the correct fields in read-from-s3.py.
-  3. Run the function using Python version 3.9.12 as interpreter to print contents to the terminal.
+  3. Make sure that the boto3 module has been properly installed and imported.
+  4. Run the function using Python version 3.9.12 as interpreter to print contents to the terminal.
 
 
 Notes:
