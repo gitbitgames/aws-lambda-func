@@ -17,3 +17,7 @@ Directions:
   1. Download read-from-s3.py.
   2. Input your project information into the terminal.
   3. Run the function using Python version 3.9.12 as interpreter to print contents to the terminal.
+
+
+Notes:
+  The function takes two parameters because the AWS testing module requires that you accept both Event and Context as parameters in order to run your function. In this case, we don't need either of those things because we are taking input from an S3 bucket and have no need for the function call that originates from their testing module.
