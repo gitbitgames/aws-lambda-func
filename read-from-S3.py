@@ -1,6 +1,5 @@
 import boto3
 
-
 def lambda_handler(event, context):
     session = boto3.Session(
         region_name="us-east-1",                        ### Add your region
